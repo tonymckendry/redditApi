@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Reddit API excercise</title>
+  </head>
+  <body>
+    <div id=searchbox>
+      <form>
+        <caption>Search for subreddits:</caption>
+        <input type="text" id="search">
+        <input type="button" value = "search" id="submit">
+      </form>
+      <form>
+        <caption>Guess how many results!</caption>
+        <input type="text" id="guess">
+        <input type="button" id="guesser" value="Guess!">
+      </form>
+      <form >
+        <caption>Remove keywords from results:</caption>
+        <input type="text" id="remove">
+        <input type="button" value = "remove" id="delete">
+      </form>
+      <form>
+        <caption>Locate in results:</caption>
+        <input type="text" id="finder">
+        <input type="button" value = "Highlight" id="locate">
+      </form>
+      <form>
+        <caption>Clear all</caption>
+        <input type="button" value = "reset" id="nuke">
+      </form>
+    </div>
+  <table id="subtable">
+    <tr><th>Subreddit</th><th>Title</th><th>Image</th></tr>
+  </table>
+    <script type="text/javascript" src=https://code.jquery.com/jquery-2.1.4.min.js></script>
+    <script type="text/javascript" src=app.js></script>
+  </body>
+</html>
